@@ -24,7 +24,7 @@ else
     sudo n 8.2.1
 fi
 sudo npm install -g node-gyp
-sudo git clone --branch v0.4.27 https://github.com/KhaosT/HAP-NodeJS.git
+sudo git clone https://github.com/KhaosT/HAP-NodeJS.git
 cd HAP-NodeJS/
 sudo rm -rf accessories/AirConditioner_accessory.js
-sudo npm install
+sudo npm install node-persist debug mdns fast-srp-hap ed25519 buffer-shims curve25519-n ip curve25519-n2
