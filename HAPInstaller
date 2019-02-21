@@ -13,7 +13,7 @@ if uname -m | grep -q "armv6l"; then
     sudo rm /usr/local/bin/node
     sudo rm -rf /usr/local/lib/node_modules/npm
     sudo n prune
-    sudo n 8.2.1
+    sudo n 8.15.0
 else
     sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
     sudo apt-get install nodejs -y
@@ -21,7 +21,7 @@ else
     sudo rm /usr/local/bin/node
     sudo rm -rf /usr/local/lib/node_modules/npm
     sudo n prune
-    sudo n 8.2.1
+    sudo n 8.15.0
 fi
 sudo npm install -g node-gyp
 sudo git clone --branch v0.4.27 https://github.com/KhaosT/HAP-NodeJS.git
